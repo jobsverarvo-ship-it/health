@@ -1,0 +1,4 @@
+# 자동 시험(pytest)까지 돌릴 때
+-r requirements.txt
+httpx>=0.27
+pytest>=8

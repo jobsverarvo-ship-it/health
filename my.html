@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>내 건강정보함 | 건강한통</title>
+<meta name="description" content="지금까지 받은 건강 정보를 날짜별로 다시 보고, 소리로 듣고, 저장하세요.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@500;600&display=swap">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>try{var s=localStorage.getItem('haruon-size');if(s==='lg'||s==='xl')document.documentElement.setAttribute('data-size',s)}catch(e){}</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html" aria-label="건강한통 처음 화면">
+      <svg width="30" height="30" viewBox="0 0 32 32" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="16" cy="16" r="15" stroke-width="1.2"/><rect x="8.5" y="10.5" width="15" height="11" rx="2" stroke-width="1.6"/><path d="M9.5 11.8l6.5 4.9 6.5-4.9" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="brand-name">건강한통</span>
+    </a>
+    <div class="header-tools">
+      <div class="textsize">
+        <button type="button" class="size-toggle" id="size-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="size-menu">
+          <span class="size-glyph" aria-hidden="true"><span>가</span><span>가</span></span>
+          <span class="size-label">글자 크기</span>
+          <svg class="size-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="size-menu" id="size-menu" role="menu" aria-label="글자 크기 고르기" hidden>
+          <p class="size-menu-title">보기 편한 글씨 크기를 골라 주세요</p>
+          <button type="button" role="menuitemradio" aria-checked="true" data-size-btn="md"><span class="size-name">보통</span><span class="size-sample">가나다</span></button>
+          <button type="button" role="menuitemradio" aria-checked="false" data-size-btn="lg"><span class="size-name">크게</span><span class="size-sample">가나다</span></button>
+          <button type="button" role="menuitemradio" aria-checked="false" data-size-btn="xl"><span class="size-name">더 크게</span><span class="size-sample">가나다</span></button>
+        </div>
+        <div class="size-hint" id="size-hint" role="note">
+          <span>글씨가 작게 보이시면 위쪽 <b>‘글자 크기’</b>를 눌러 더 큰 글씨를 골라 보세요.</span>
+          <button type="button" id="size-hint-close">알겠어요</button>
+        </div>
+      </div>
+      <button type="button" class="login-link btn-text" data-logout data-when="in" hidden>로그아웃</button>
+      <a class="login-link" href="index.html" data-when="out">처음 화면으로</a>
+    </div>
+  </div>
+</header>
+
+<main class="app-main">
+  <div class="wrap wrap-narrow" id="app">
+    <noscript><p>이 화면을 쓰려면 브라우저에서 자바스크립트를 켜 주세요.</p></noscript>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap wrap-narrow">
+    <p class="disclaimer">건강한통의 정보는 의사의 진단이나 치료를 대신하지 않습니다. 몸이 갑자기 많이 아프시면 바로 119에 연락하세요.</p>
+    <p class="biz">건강정보함은 지금 예시 정보로 채워 두었어요. 정식 서비스에서는 나라 기관의 공식 자료로 만든 정보가 매일 쌓여요. · © 2026 건강한통</p>
+  </div>
+</footer>
+
+<script src="assets/js/tips-data.js"></script>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/my.js"></script>
+</body>
+</html>

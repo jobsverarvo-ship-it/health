@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 600" width="300" height="600" role="img" aria-labelledby="title">
+  <title id="title">지금까지 받은 건강 정보를 날짜별로 다시 보는 내 건강정보함 화면</title>
+  <defs><clipPath id="screen"><rect x="12" y="12" width="276" height="576" rx="33"/></clipPath></defs>
+  <rect x="2" y="2" width="296" height="596" rx="42" fill="#1F1915"/>
+  <g clip-path="url(#screen)" font-family="'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif">
+    <rect x="12" y="12" width="276" height="576" fill="#FBF8F3"/>
+    <rect x="118" y="22" width="64" height="20" rx="10" fill="#1F1915"/>
+    <text x="34" y="38" font-size="12" font-weight="700" fill="#2A221C">9:30</text>
+
+    <rect x="27" y="67" width="20" height="15" rx="2.5" fill="none" stroke="#8A683D" stroke-width="1.7"/>
+    <path d="M28.2 68.5l8.8 6.6 8.8-6.6" fill="none" stroke="#8A683D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="54" y="81" font-size="15" font-weight="700" font-family="'Noto Serif KR','AppleMyungjo','Batang',serif" fill="#2A221C">건강한통</text>
+    <line x1="12" y1="102" x2="288" y2="102" stroke="#E2D7C5"/>
+
+    <text x="26" y="138" font-size="20" font-weight="600" font-family="'Noto Serif KR','AppleMyungjo','Batang',serif" fill="#2A221C">내 건강정보함</text>
+    <text x="26" y="160" font-size="12" fill="#74685D">지금까지 받은 정보 21개</text>
+
+    <rect x="24" y="176" width="252" height="40" rx="12" fill="#FFFFFF" stroke="#D5C8B4" stroke-width="1.3"/>
+    <circle cx="44" cy="195" r="6" fill="none" stroke="#8A683D" stroke-width="1.7"/>
+    <path d="M48.5 199.5l4 4" stroke="#8A683D" stroke-width="1.7" stroke-linecap="round"/>
+    <text x="60" y="200" font-size="12" fill="#A89A8C">찾고 싶은 말 (예: 혈압)</text>
+
+    <rect x="24" y="228" width="52" height="28" rx="14" fill="#3A2C22"/>
+    <text x="50" y="246" text-anchor="middle" font-size="11.5" fill="#F7F1E8">전체</text>
+    <rect x="82" y="228" width="76" height="28" rx="14" fill="#FFFFFF" stroke="#E2D7C5"/>
+    <text x="120" y="246" text-anchor="middle" font-size="11.5" fill="#594E45">저장한 것</text>
+    <rect x="164" y="228" width="76" height="28" rx="14" fill="#FFFFFF" stroke="#E2D7C5"/>
+    <text x="202" y="246" text-anchor="middle" font-size="11.5" fill="#594E45">약과 음식</text>
+
+    <text x="26" y="286" font-size="11.5" font-weight="700" fill="#74685D">어제 · 11월 27일 목요일</text>
+    <rect x="24" y="296" width="252" height="88" rx="16" fill="#FFFFFF" stroke="#E2D7C5"/>
+    <text x="40" y="320" font-size="10.5" font-weight="700" fill="#8A683D">약과 음식 궁합</text>
+    <text x="40" y="343" font-size="14" font-weight="700" fill="#2A221C">자몽은 일부 약과 함께</text>
+    <text x="40" y="363" font-size="14" font-weight="700" fill="#2A221C">드시면 안 돼요</text>
+    <path d="M253 316l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z" fill="#C9A46C"/>
+
+    <text x="26" y="410" font-size="11.5" font-weight="700" fill="#74685D">11월 26일 수요일</text>
+    <rect x="24" y="420" width="252" height="68" rx="16" fill="#FFFFFF" stroke="#E2D7C5"/>
+    <text x="40" y="444" font-size="10.5" font-weight="700" fill="#8A683D">몸이 보내는 신호</text>
+    <text x="40" y="467" font-size="14" font-weight="700" fill="#2A221C">단백질은 세 끼에 나눠 드세요</text>
+
+    <text x="26" y="514" font-size="11.5" font-weight="700" fill="#74685D">11월 25일 화요일</text>
+    <rect x="24" y="524" width="252" height="68" rx="16" fill="#FFFFFF" stroke="#E2D7C5"/>
+    <text x="40" y="548" font-size="10.5" font-weight="700" fill="#8A683D">나라에서 주는 혜택</text>
+    <text x="40" y="571" font-size="14" font-weight="700" fill="#2A221C">폐렴구균 예방접종이 무료예요</text>
+    <rect x="110" y="574" width="80" height="5" rx="2.5" fill="#2A221C" opacity=".35"/>
+  </g>
+</svg>

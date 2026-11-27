@@ -1,0 +1,13 @@
+# 비밀값과 회원 정보는 절대 올리지 않는다
+server/.env
+server/data/
+*.db
+*.db-wal
+*.db-shm
+
+# 파이썬 부산물
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
