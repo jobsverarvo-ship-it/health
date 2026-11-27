@@ -1,0 +1,5 @@
+[
+  {"id": "u001", "name": "예시 회원 A", "region": "서울", "interests": ["혈압", "심장"], "plan": "member"},
+  {"id": "u002", "name": "예시 회원 B", "region": "부산", "interests": ["당뇨", "관절"], "plan": "free"},
+  {"id": "u003", "name": "예시 회원 C", "region": "대구", "interests": ["눈", "귀"], "plan": "member"}
+]

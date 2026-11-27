@@ -1,0 +1,14 @@
+{
+  "_note": "형식 시험용 예시 응답이에요. 실제 에어코리아 측정값이 아니에요. 키는 sidoName.",
+  "서울": {"response": {"header": {"resultCode": "00", "resultMsg": "NORMAL_CODE"}, "body": {"totalCount": 3, "pageNo": 1, "numOfRows": 200, "items": [
+    {"stationName": "예시측정소1", "dataTime": "2026-11-27 07:00", "pm10Value": "72", "pm25Value": "41", "pm10Grade": "2", "pm25Grade": "3"},
+    {"stationName": "예시측정소2", "dataTime": "2026-11-27 07:00", "pm10Value": "80", "pm25Value": "45", "pm10Grade": "2", "pm25Grade": "3"},
+    {"stationName": "예시측정소3", "dataTime": "2026-11-27 07:00", "pm10Value": "-", "pm25Value": "-", "pm10Grade": "", "pm25Grade": ""}
+  ]}}},
+  "부산": {"response": {"header": {"resultCode": "00", "resultMsg": "NORMAL_CODE"}, "body": {"totalCount": 1, "pageNo": 1, "numOfRows": 200, "items": [
+    {"stationName": "예시측정소4", "dataTime": "2026-11-27 07:00", "pm10Value": "30", "pm25Value": "18", "pm10Grade": "1", "pm25Grade": "2"}
+  ]}}},
+  "대구": {"response": {"header": {"resultCode": "00", "resultMsg": "NORMAL_CODE"}, "body": {"totalCount": 1, "pageNo": 1, "numOfRows": 200, "items": [
+    {"stationName": "예시측정소5", "dataTime": "2026-11-27 07:00", "pm10Value": "48", "pm25Value": "30", "pm10Grade": "2", "pm25Grade": "2"}
+  ]}}}
+}

@@ -1,0 +1,16 @@
+{
+  "_note": "형식 시험용 예시 응답이에요. 실제 기상청 자료가 아니에요. 키는 격자 'nx,ny'.",
+  "60,127": {"response": {"header": {"resultCode": "00", "resultMsg": "NORMAL_SERVICE"}, "body": {"dataType": "JSON", "items": {"item": [
+    {"baseDate": "{TODAY}", "baseTime": "0200", "category": "TMP", "fcstDate": "{TODAY}", "fcstTime": "0600", "fcstValue": "-8", "nx": 60, "ny": 127},
+    {"baseDate": "{TODAY}", "baseTime": "0200", "category": "TMN", "fcstDate": "{TODAY}", "fcstTime": "0600", "fcstValue": "-9.0", "nx": 60, "ny": 127},
+    {"baseDate": "{TODAY}", "baseTime": "0200", "category": "TMX", "fcstDate": "{TODAY}", "fcstTime": "1500", "fcstValue": "1.0", "nx": 60, "ny": 127}
+  ]}, "pageNo": 1, "numOfRows": 1000, "totalCount": 3}}},
+  "98,76": {"response": {"header": {"resultCode": "00", "resultMsg": "NORMAL_SERVICE"}, "body": {"dataType": "JSON", "items": {"item": [
+    {"baseDate": "{TODAY}", "baseTime": "0200", "category": "TMN", "fcstDate": "{TODAY}", "fcstTime": "0600", "fcstValue": "2.0", "nx": 98, "ny": 76},
+    {"baseDate": "{TODAY}", "baseTime": "0200", "category": "TMX", "fcstDate": "{TODAY}", "fcstTime": "1500", "fcstValue": "14.0", "nx": 98, "ny": 76}
+  ]}, "pageNo": 1, "numOfRows": 1000, "totalCount": 2}}},
+  "89,90": {"response": {"header": {"resultCode": "00", "resultMsg": "NORMAL_SERVICE"}, "body": {"dataType": "JSON", "items": {"item": [
+    {"baseDate": "{TODAY}", "baseTime": "0200", "category": "TMN", "fcstDate": "{TODAY}", "fcstTime": "0600", "fcstValue": "-11.0", "nx": 89, "ny": 90},
+    {"baseDate": "{TODAY}", "baseTime": "0200", "category": "TMX", "fcstDate": "{TODAY}", "fcstTime": "1500", "fcstValue": "3.0", "nx": 89, "ny": 90}
+  ]}, "pageNo": 1, "numOfRows": 1000, "totalCount": 2}}}
+}

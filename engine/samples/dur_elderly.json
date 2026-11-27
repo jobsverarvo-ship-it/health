@@ -1,0 +1,15 @@
+{
+  "_note": "형식 시험용 예시 응답이에요. 실제 DUR 고시 문구가 아니에요. 실제 응답의 필드 이름은 API 미리보기로 한 번 확인할 것.",
+  "header": {"resultCode": "00", "resultMsg": "NORMAL SERVICE."},
+  "body": {"pageNo": 1, "totalCount": 3, "numOfRows": 100, "items": [
+    {"item": {"TYPE_NAME": "노인주의", "INGR_CODE": "SAMPLE01", "INGR_KOR_NAME": "디펜히드라민염산염",
+              "ITEM_NAME": "예시수면정", "ENTP_NAME": "예시제약", "ETC_OTC_NAME": "일반의약품", "CLASS_NAME": "항히스타민제",
+              "PROHBT_CONTENT": "고령자에서 졸음, 어지러움, 혼동, 변비, 소변보기 어려움 같은 항콜린 작용이 더 잘 나타날 수 있으므로 주의"}},
+    {"item": {"TYPE_NAME": "노인주의", "INGR_CODE": "SAMPLE01", "INGR_KOR_NAME": "디펜히드라민염산염",
+              "ITEM_NAME": "예시감기캡슐", "ENTP_NAME": "예시제약", "ETC_OTC_NAME": "일반의약품", "CLASS_NAME": "항히스타민제",
+              "PROHBT_CONTENT": "고령자에서 졸음, 어지러움, 혼동, 변비, 소변보기 어려움 같은 항콜린 작용이 더 잘 나타날 수 있으므로 주의"}},
+    {"item": {"TYPE_NAME": "노인주의", "INGR_CODE": "SAMPLE02", "INGR_KOR_NAME": "예시성분B",
+              "ITEM_NAME": "예시정B", "ENTP_NAME": "예시제약", "ETC_OTC_NAME": "전문의약품", "CLASS_NAME": "예시분류",
+              "PROHBT_CONTENT": "고령자에서 어지러움과 낙상 위험이 커질 수 있으므로 저용량부터 신중히 투여"}}
+  ]}
+}
