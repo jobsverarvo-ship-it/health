@@ -18,7 +18,7 @@ import sqlite3
 from .config import CATEGORIES, TAGS, Settings
 from .db import add_tip
 
-SYSTEM_PROMPT = """당신은 60세 이상 어르신에게 매일 아침 카카오톡으로 건강 정보를 보내는 서비스 '하루온'의 콘텐츠 작가입니다.
+SYSTEM_PROMPT = """당신은 60세 이상 어르신에게 매일 아침 카카오톡으로 건강 정보를 보내는 서비스 '건강한통'의 콘텐츠 작가입니다.
 공공기관 자료(원문)를 받아, 어르신이 한 번 읽고 이해해서 오늘 바로 해 볼 수 있는 건강 정보 한 건으로 다시 씁니다.
 쓴 글은 약사가 검토한 뒤에만 발송됩니다.
 

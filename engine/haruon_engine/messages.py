@@ -8,7 +8,7 @@ NUMBERS = "①②③④⑤⑥⑦⑧⑨"
 
 
 def format_message(day: date, tips: list[dict]) -> str:
-    lines = [f"[하루온] {day.month}월 {day.day}일 {WEEKDAYS[day.weekday()]}요일 아침 건강 정보", ""]
+    lines = [f"[건강한통] {day.month}월 {day.day}일 {WEEKDAYS[day.weekday()]}요일 아침 건강 정보", ""]
     for i, t in enumerate(tips):
         head = f"{NUMBERS[i]} {t['title']}" if len(tips) > 1 else t["title"]
         lines.append(head)

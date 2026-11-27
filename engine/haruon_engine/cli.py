@@ -147,7 +147,7 @@ def cmd_reject(args, settings, conn):
 
 
 def build_parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(prog="python -m haruon_engine", description="하루온 콘텐츠 엔진")
+    p = argparse.ArgumentParser(prog="python -m haruon_engine", description="건강한통 콘텐츠 엔진")
     sub = p.add_subparsers(dest="cmd", required=True)
 
     s = sub.add_parser("init", help="데이터베이스 만들기, 기본 정보·받는 분 넣기")

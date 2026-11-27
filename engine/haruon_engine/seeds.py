@@ -83,7 +83,7 @@ def load_seeds(conn: sqlite3.Connection) -> int:
         s = dict(s)
         key = s.pop("key")
         s.setdefault("caution", "")
-        s.setdefault("source_name", "하루온 편집팀")
+        s.setdefault("source_name", "건강한통 편집팀")
         if add_tip(conn, dedupe_key=f"seed:{key}", writer="seed", kind="evergreen",
                    status="draft", priority=50, **s) is not None:
             added += 1

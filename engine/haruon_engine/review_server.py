@@ -77,8 +77,8 @@ def make_handler(settings: Settings):
             c = {r["status"]: r["n"] for r in conn.execute("SELECT status, COUNT(*) n FROM tips GROUP BY status")}
             return (f'<!doctype html><html lang="ko"><head><meta charset="utf-8">'
                     f'<meta name="viewport" content="width=device-width,initial-scale=1">'
-                    f"<title>{esc(title)} · 하루온 검토</title><style>{CSS}</style></head><body>"
-                    f'<header><div class="wrap bar"><b>하루온 콘텐츠 검토</b><nav>'
+                    f"<title>{esc(title)} · 건강한통 검토</title><style>{CSS}</style></head><body>"
+                    f'<header><div class="wrap bar"><b>건강한통 콘텐츠 검토</b><nav>'
                     f'<a href="/">검토 대기 <span class="n">{c.get("draft", 0)}</span></a>'
                     f'<a href="/approved">승인됨 <span class="n">{c.get("approved", 0)}</span></a>'
                     f'<a href="/preview">오늘 발송 미리 보기</a></nav></div></header>'
