@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="60세 이상을 위한 매일 건강 정보 알림 서비스. 약사가 확인한 건강 정보를 매일 아침 카카오톡으로 보내 드려요.">
-<title>하루온 건강 알림</title>
+<meta name="description" content="건강한통: 60세 이상을 위한 매일 건강 정보 알림 서비스. 약사가 확인한 건강 정보를 매일 아침 카카오톡으로 보내 드려요.">
+<title>건강한통 | 매일 아침 건강 한 통</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -78,7 +78,9 @@ svg { flex-shrink: 0; }
 .brand-name { font-family: var(--serif); font-weight: 600; font-size: 1.3rem; letter-spacing: -.01em; line-height: 1; }
 .brand-latin { font-family: var(--latin); font-style: italic; font-size: 1rem; color: var(--gold); line-height: 1; }
 .nav { display: flex; gap: 1.4rem; margin-left: auto; }
-.nav a { color: var(--ink-2); text-decoration: none; font-size: .92rem; padding-block: .5rem; }
+.nav a { color: var(--ink-2); text-decoration: none; font-size: .92rem; padding-block: .5rem; white-space: nowrap; }
+.brand, .header-cta { white-space: nowrap; flex-shrink: 0; }
+@media (max-width: 1440px) { .brand-latin { display: none; } }
 .nav a:hover { color: var(--ink); }
 .header-tools { display: flex; align-items: center; gap: .9rem; }
 .textsize { display: flex; align-items: center; gap: .55rem; position: relative; }
@@ -519,14 +521,13 @@ html.modal-open { overflow: hidden; }
 <body>
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="brand" href="#top" aria-label="하루온 처음으로">
+    <a class="brand" href="#top" aria-label="건강한통 처음으로">
       <svg width="30" height="30" viewBox="0 0 32 32" fill="none" stroke="currentColor" aria-hidden="true">
         <circle cx="16" cy="16" r="15" stroke-width="1.2"/>
-        <path d="M9 20a7 7 0 0 1 14 0" stroke-width="1.8" stroke-linecap="round"/>
-        <path d="M6.5 23.5h19" stroke-width="1.4" stroke-linecap="round"/>
+        <rect x="8.5" y="10.5" width="15" height="11" rx="2" stroke-width="1.8"/><path d="M9.5 11.8l6.5 4.9 6.5-4.9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
-      <span class="brand-name">하루온</span>
-      <span class="brand-latin">Haruon</span>
+      <span class="brand-name">건강한통</span>
+      <span class="brand-latin">Daily Health Letter</span>
     </a>
     <nav class="nav" aria-label="주요 메뉴">
       <a href="#why">다른 점</a>
@@ -582,10 +583,10 @@ html.modal-open { overflow: hidden; }
             <div class="status"><span>8:00</span><span>●●● ▮</span></div>
             <div class="chat-top">
               <div class="avatar" aria-hidden="true">
-                <svg width="20" height="20" viewBox="0 0 32 32" fill="none" stroke="currentColor"><path d="M9 20a7 7 0 0 1 14 0" stroke-width="2.4" stroke-linecap="round"/><path d="M6.5 23.5h19" stroke-width="2" stroke-linecap="round"/></svg>
+                <svg width="20" height="20" viewBox="0 0 32 32" fill="none" stroke="currentColor"><rect x="8.5" y="10.5" width="15" height="11" rx="2" stroke-width="2.4"/><path d="M9.5 11.8l6.5 4.9 6.5-4.9" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </div>
               <div>
-                <div class="chat-name">하루온</div>
+                <div class="chat-name">건강한통</div>
                 <div class="chat-sub">매일 아침 건강 정보</div>
               </div>
             </div>
@@ -616,38 +617,38 @@ html.modal-open { overflow: hidden; }
   <section class="section band-sand" id="why" aria-labelledby="why-title">
     <div class="wrap">
       <div class="section-head">
-        <span class="eyebrow">하루온이 다른 점</span>
+        <span class="eyebrow">건강한통이 다른 점</span>
         <h2 id="why-title">흔히 보는 건강 정보와는 차이가 있습니다</h2>
-        <p>인터넷과 유튜브에도 건강 정보는 많아요. 하지만 어떤 말이 맞는지, 나에게 필요한 내용인지 가려내기는 쉽지 않죠. 하루온은 대신 고르고, 약사가 확인하고, 오늘 할 일 하나로 정리해서 보내 드려요.</p>
+        <p>인터넷과 유튜브에도 건강 정보는 많아요. 하지만 어떤 말이 맞는지, 나에게 필요한 내용인지 가려내기는 쉽지 않죠. 건강한통은 대신 고르고, 약사가 확인하고, 오늘 할 일 하나로 정리해서 보내 드려요.</p>
       </div>
       <div class="diff">
         <div class="diff-row diff-headrow" aria-hidden="true">
-          <span></span><span>흔히 보는 건강 정보</span><span class="us">하루온</span>
+          <span></span><span>흔히 보는 건강 정보</span><span class="us">건강한통</span>
         </div>
         <div class="diff-row">
           <div class="diff-topic">믿을 수 있나요?</div>
           <div class="diff-them" data-label="흔히 보는 건강 정보"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.5 12h7" stroke-linecap="round"/></svg><span>광고와 과장된 말이 섞여 있어요</span></div>
-          <div class="diff-us" data-label="하루온"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>약사가 확인한 내용만 보내 드려요</span></div>
+          <div class="diff-us" data-label="건강한통"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>약사가 확인한 내용만 보내 드려요</span></div>
         </div>
         <div class="diff-row">
           <div class="diff-topic">새로운 내용인가요?</div>
           <div class="diff-them" data-label="흔히 보는 건강 정보"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.5 12h7" stroke-linecap="round"/></svg><span>“물 많이 드세요”처럼 이미 아는 이야기가 많아요</span></div>
-          <div class="diff-us" data-label="하루온"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>잘 몰랐던 정보만 골라서 보내 드려요</span></div>
+          <div class="diff-us" data-label="건강한통"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>잘 몰랐던 정보만 골라서 보내 드려요</span></div>
         </div>
         <div class="diff-row">
           <div class="diff-topic">바로 해 볼 수 있나요?</div>
           <div class="diff-them" data-label="흔히 보는 건강 정보"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.5 12h7" stroke-linecap="round"/></svg><span>읽고 나도 무엇을 해야 할지 막막해요</span></div>
-          <div class="diff-us" data-label="하루온"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>‘오늘 이렇게 해 보세요’ 한 가지로 정리해 드려요</span></div>
+          <div class="diff-us" data-label="건강한통"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>‘오늘 이렇게 해 보세요’ 한 가지로 정리해 드려요</span></div>
         </div>
         <div class="diff-row">
           <div class="diff-topic">나에게 맞나요?</div>
           <div class="diff-them" data-label="흔히 보는 건강 정보"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.5 12h7" stroke-linecap="round"/></svg><span>누구에게나 똑같은 내용이에요</span></div>
-          <div class="diff-us" data-label="하루온"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>관심 있는 건강과 드시는 약에 맞춰 드려요 (멤버십)</span></div>
+          <div class="diff-us" data-label="건강한통"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>관심 있는 건강과 드시는 약에 맞춰 드려요 (멤버십)</span></div>
         </div>
         <div class="diff-row">
           <div class="diff-topic">찾기 쉬운가요?</div>
           <div class="diff-them" data-label="흔히 보는 건강 정보"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.5 12h7" stroke-linecap="round"/></svg><span>필요할 때마다 직접 찾아봐야 해요</span></div>
-          <div class="diff-us" data-label="하루온"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>매일 아침 8시, 카카오톡으로 먼저 찾아가요</span></div>
+          <div class="diff-us" data-label="건강한통"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>매일 아침 8시, 카카오톡으로 먼저 찾아가요</span></div>
         </div>
       </div>
     </div>
@@ -812,7 +813,7 @@ html.modal-open { overflow: hidden; }
         </div>
 
         <div class="plan plan-member">
-          <div class="plan-name">하루온 멤버십 <span class="badge">상담 포함</span></div>
+          <div class="plan-name">건강한통 멤버십 <span class="badge">상담 포함</span></div>
           <div class="price">
             <span class="price-num">3,900</span><span class="price-unit">원 / 월</span>
             <span class="price-sub">하루 약 130원</span>
@@ -863,8 +864,8 @@ html.modal-open { overflow: hidden; }
       <div class="chat-window" aria-label="건강 상담 대화 예시">
         <div class="cw-head">
           <div class="cw-title">
-            <div class="avatar" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 32 32" fill="none" stroke="currentColor"><path d="M9 20a7 7 0 0 1 14 0" stroke-width="2.6" stroke-linecap="round"/><path d="M6.5 23.5h19" stroke-width="2.2" stroke-linecap="round"/></svg></div>
-            하루온 건강 상담
+            <div class="avatar" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 32 32" fill="none" stroke="currentColor"><rect x="8.5" y="10.5" width="15" height="11" rx="2" stroke-width="2.6"/><path d="M9.5 11.8l6.5 4.9 6.5-4.9" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            건강한통 건강 상담
           </div>
           <span class="cw-tag">대화 예시</span>
         </div>
@@ -897,7 +898,7 @@ html.modal-open { overflow: hidden; }
   <section class="section band-sand" aria-labelledby="promise-title">
     <div class="wrap">
       <div class="section-head">
-        <span class="eyebrow">하루온의 약속</span>
+        <span class="eyebrow">건강한통의 약속</span>
         <h2 id="promise-title">건강 정보는 믿을 수 있어야 하니까요</h2>
       </div>
       <div class="promises">
@@ -946,7 +947,7 @@ html.modal-open { overflow: hidden; }
         </details>
         <details>
           <summary>상담이 병원 진료를 대신할 수 있나요?<span class="faq-plus" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 14 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M7 1.5v11M1.5 7h11"/></svg></span></summary>
-          <p>아니요. 하루온은 생활 속 건강 관리 정보를 드리는 서비스예요. 병명을 판단하거나 약을 처방하지 않아요. 진료가 필요해 보이면 병원에 가시도록 안내해 드려요.</p>
+          <p>아니요. 건강한통은 생활 속 건강 관리 정보를 드리는 서비스예요. 병명을 판단하거나 약을 처방하지 않아요. 진료가 필요해 보이면 병원에 가시도록 안내해 드려요.</p>
         </details>
         <details>
           <summary>자녀가 대신 가입하고 결제할 수 있나요?<span class="faq-plus" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 14 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M7 1.5v11M1.5 7h11"/></svg></span></summary>
@@ -965,7 +966,7 @@ html.modal-open { overflow: hidden; }
     <div class="final-arch" aria-hidden="true"></div>
     <div class="wrap final-inner">
       <span class="eyebrow">내일 아침 8시</span>
-      <h2 id="final-title">첫 번째 건강 정보를 보내 드릴게요</h2>
+      <h2 id="final-title">첫 번째 건강 한 통을 보내 드릴게요</h2>
       <p>가입비 없이, 카카오톡 채널 추가 한 번이면 시작돼요.</p>
       <a class="btn btn-primary" href="#start">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 4C7 4 3 7.2 3 11.1c0 2.5 1.6 4.6 4.1 5.9L6.3 20.5l4-2.6c.6.1 1.1.1 1.7.1 5 0 9-3.2 9-7S17 4 12 4z" stroke-linejoin="round"/></svg>
@@ -978,9 +979,9 @@ html.modal-open { overflow: hidden; }
 <footer class="footer">
   <div class="wrap">
     <div class="footer-top">
-      <a class="brand" href="#top" aria-label="하루온 처음으로">
-        <svg width="26" height="26" viewBox="0 0 32 32" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="16" cy="16" r="15" stroke-width="1.2"/><path d="M9 20a7 7 0 0 1 14 0" stroke-width="1.8" stroke-linecap="round"/><path d="M6.5 23.5h19" stroke-width="1.4" stroke-linecap="round"/></svg>
-        <span class="brand-name" style="font-size:1.1rem">하루온</span>
+      <a class="brand" href="#top" aria-label="건강한통 처음으로">
+        <svg width="26" height="26" viewBox="0 0 32 32" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="16" cy="16" r="15" stroke-width="1.2"/><rect x="8.5" y="10.5" width="15" height="11" rx="2" stroke-width="1.8"/><path d="M9.5 11.8l6.5 4.9 6.5-4.9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="brand-name" style="font-size:1.1rem">건강한통</span>
       </a>
       <nav class="footer-links" aria-label="하단 메뉴">
         <a href="#top">이용약관</a>
@@ -988,8 +989,8 @@ html.modal-open { overflow: hidden; }
         <a href="#faq">자주 묻는 질문</a>
       </nav>
     </div>
-    <p class="disclaimer">하루온은 의료기관이 아니며, 제공하는 정보와 상담은 의사의 진단이나 치료를 대신하지 않습니다. 몸이 갑자기 많이 아프시면 바로 119에 연락하세요.</p>
-    <p class="biz">상호 (주)하루온 · 대표 ○○○ · 사업자등록번호 000-00-00000 · 통신판매업 신고 제0000-서울○○-0000호<br>고객센터 0000-0000 · © 하루온</p>
+    <p class="disclaimer">건강한통은 의료기관이 아니며, 제공하는 정보와 상담은 의사의 진단이나 치료를 대신하지 않습니다. 몸이 갑자기 많이 아프시면 바로 119에 연락하세요.</p>
+    <p class="biz">상호 (주)건강한통 · 대표 ○○○ · 사업자등록번호 000-00-00000 · 통신판매업 신고 제0000-서울○○-0000호<br>고객센터 0000-0000 · © 건강한통</p>
   </div>
 </footer>
 
@@ -997,7 +998,7 @@ html.modal-open { overflow: hidden; }
   <form id="pay-form" novalidate>
     <div class="pay-head">
       <div>
-        <p class="pay-kicker">하루온 멤버십</p>
+        <p class="pay-kicker">건강한통 멤버십</p>
         <h2 id="pay-title">멤버십 신청하기</h2>
       </div>
       <button type="button" class="pay-close" data-close>
